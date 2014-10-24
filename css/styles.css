@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* General */
+body {margin:0; padding:0;}
+.title {font-family: 'Press Start 2P'; font-size:175%; color:#fff;}
+.titleA {font-family: 'Press Start 2P'; font-size:175%; color:#fff;}
+.titleB {font-family: 'Press Start 2P'; font-size:175%; color:#000;}
+p {font-family:'Source Code Pro'; line-height:150%;}
+ul li {font-family:'Source Code Pro'; line-height:150%; color:#9f8c7d; font-size:150%;}
+ul, ul ul {padding: 20px;}
+li {margin:0px 20px;}
+ul ul li {color:#c61821; font-family: 'Press Start 2P'; font-size:100%; line-height:150%;}
+
+a {color:#c61821; text-decoration:none;}
+a:hover {text-decoration:underline;}
+
+/* Colors */
+.white {color:#fff;}
+.black {background:#000;}
+.almostBlack {background:#363435;} /* 1c1b19 */
+.darkBlackC {background:url(../images/toolbg.png) no-repeat #363435; background-size: 100% auto;}
+.darkRed {background:#761214;}
+.darkRedC {background:url(../images/arcade.png) no-repeat #761214;; background-size: 100% auto;}
+.lightGrey {background:#d5d3d8;}
+.grey {color:#d5d3d8;}
+.realRed {background:#c61821;}
+.realWhite {background:#fff;}
+.realGold {background:#9f8c7d;}
+.quote  {font-size:150%; line-height:150%; font-style:italic;}
+.number {font-size:200%; color:#9f8c7d; font-weight:bold;}
+.signature {font-size:100%; text-align:right;}
+
+.center {text-align:center;} 
+.center p {text-align:left !important;} 
+.padding {padding:0px 20px;}
+.topPadding1 {padding:10px 0px !important;}
+.topPadding {padding:40px 0px !important;}
+.tools {max-width:100%; height:auto; display: block; margin: 0 auto; border:0 none; padding:20px 0px;}
+.tools:hover {opacity:0.65;}
+.tools2 {max-width:80%; height:auto; display: block; margin: 0 auto; border:0 none; padding:0px; opacity:0.5;}
+.tools2:hover {opacity:1;}
+.tools2a {max-width:80%; height:auto; display: block; margin: 0 auto; border:0 none; padding:0px;}
+.tools3 {max-width:100%; height:auto; display: block; margin: 0 auto; border:0 none; padding:0px;}
+
+.bottomBorder {border-bottom:10px solid #c6c4c8;}
+.bottomBorderRed {border-bottom:10px solid #761214;}
+
+.sectionUp {z-index:1000; position:fixed;}
+
+.list {list-style:none; padding:0; margin:0;}
+.list li {padding-left:10%; width:90%; color:#000;}
+.list li:hover {background:#363435; cursor:pointer; color:#fff;}
+.select {color:#761214 !important; background:#d5d3d8 !important; cursor:default !important;}
+.select:hover {background:#d5d3d8 !important; cursor:default !important;}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+	margin-top:20px;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
